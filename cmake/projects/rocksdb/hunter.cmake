@@ -13,7 +13,7 @@ hunter_add_version(
     PACKAGE_NAME rocksdb
     VERSION 5.12.2-hunter
     URL "https://github.com/chfast/rocksdb/archive/hunter.tar.gz"
-    SHA1 "71e3e704556b428e76ae71454a4a2b7410e5ddb3"
+    SHA1 "a8d53724782fc65941d526430554549fbcb03b6f"
 )
 
 hunter_add_version(
