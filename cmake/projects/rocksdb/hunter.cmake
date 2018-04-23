@@ -11,9 +11,9 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
     PACKAGE_NAME rocksdb
-    VERSION 5.12.2-hunter
-    URL "https://github.com/chfast/rocksdb/archive/hunter.tar.gz"
-    SHA1 "a8d53724782fc65941d526430554549fbcb03b6f"
+    VERSION 5.13.0-hunter
+    URL "https://github.com/chfast/rocksdb/archive/a8a28da2159648a2f72c35ea507371df8a97a2a9.tar.gz"
+    SHA1 "18395ff90d6d761c005a485ca0544aafd30cb4e7"
 )
 
 hunter_add_version(
