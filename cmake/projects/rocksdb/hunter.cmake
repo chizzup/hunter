@@ -35,6 +35,7 @@ hunter_cmake_args(rocksdb CMAKE_ARGS
     WITH_GFLAGS=OFF
     PORTABLE=ON
     FAIL_ON_WARNINGS=OFF
+    ROCKSDB_INSTALL_ON_WINDOWS=ON
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
