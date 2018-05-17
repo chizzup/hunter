@@ -11,10 +11,9 @@ environment:
 
   matrix:
 
-    # FIXME:
-    # - TOOLCHAIN: "ninja-vs-15-2017-win64-cxx17"
-    #   PROJECT_DIR: examples\Boost
-    #   APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
+    - TOOLCHAIN: "ninja-vs-14-2015-win64"
+      PROJECT_DIR: examples\Boost
+      APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
 
     # FIXME
     # - TOOLCHAIN: "nmake-vs-15-2017-win64-cxx17"
